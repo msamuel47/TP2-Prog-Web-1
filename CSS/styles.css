@@ -27,7 +27,8 @@ height:2000px;
 #gauche
 {
 	border-radius: 20px;
-	background-color:#298cce;
+
+	background-color: #298cce; /!: Bleue normal :!/
 	height:1000px;
     width:39%;
 	float:left;
