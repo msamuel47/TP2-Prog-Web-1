@@ -26,7 +26,7 @@ include  "pieddepage.php";
 			<div id="droite">
 				<p class="title" style="color: black;">Enregistrer un tournoi</p>
                 <div id="form">
-                <form action="traitement.php" method="post" onsubmit="ValiderLesChamps()" >
+                <form action="traitement.php" method="post">
                     <table>
                         <tr>
                             <td><label> Nom de l'événement :</label></td>
