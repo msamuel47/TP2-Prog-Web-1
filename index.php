@@ -1,5 +1,9 @@
 <!doctype html>
 <html lang="en">
+<?php
+include  "entete.php";
+?>
+
 <head>
 	<meta charset="UTF-8">
 	<title>ExtaLife!</title>
