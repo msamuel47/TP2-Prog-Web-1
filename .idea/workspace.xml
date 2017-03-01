@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38210269-266b-42f2-aa47-13a7eb96a2f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/styles.css" afterPath="$PROJECT_DIR$/CSS/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/enregistrer.php" afterPath="$PROJECT_DIR$/enregistrer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entete.php" afterPath="$PROJECT_DIR$/entete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/traitement.php" afterPath="$PROJECT_DIR$/traitement.php" />
-    </list>
+    <list default="true" id="38210269-266b-42f2-aa47-13a7eb96a2f8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +69,7 @@
       <file leaf-file-name="enregistrer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/enregistrer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="193">
               <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <marker date="1488375977660" expanded="true" signature="493:590" ph="..." />
@@ -279,12 +274,12 @@
       <workItem from="1487164389561" duration="9000" />
       <workItem from="1487872677705" duration="1018000" />
       <workItem from="1488228096997" duration="598000" />
-      <workItem from="1488374814895" duration="1172000" />
+      <workItem from="1488374814895" duration="1237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20438000" />
+    <option name="totallyTimeSpent" value="20503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -526,7 +521,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/enregistrer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
+        <state relative-caret-position="193">
           <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <marker date="1488375977660" expanded="true" signature="493:590" ph="..." />
