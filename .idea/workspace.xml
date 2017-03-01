@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38210269-266b-42f2-aa47-13a7eb96a2f8" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/player.php" afterPath="$PROJECT_DIR$/recherche.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entete.php" afterPath="$PROJECT_DIR$/entete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournoisAVenir.php" afterPath="$PROJECT_DIR$/tournoisAVenir.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,9 +31,56 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="17">
               <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/entete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+              <folding>
+                <marker date="1488375309730" expanded="true" signature="58:228" ph="..." />
+                <marker date="1488375309730" expanded="true" signature="246:569" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recherche.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/recherche.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding>
+                <marker date="1488375341722" expanded="true" signature="1461:2103" ph="..." />
+                <marker date="1488375341722" expanded="true" signature="1482:1625" ph="..." />
+                <marker date="1488375341722" expanded="true" signature="1646:1774" ph="..." />
+                <marker date="1488375341722" expanded="true" signature="1795:1928" ph="..." />
+                <marker date="1488375341722" expanded="true" signature="1949:2082" ph="..." />
+                <marker date="1488375341722" expanded="true" signature="2145:2730" ph="..." />
+                <marker date="1488375341722" expanded="true" signature="2314:2602" ph="..." />
+                <marker date="1488375341722" expanded="true" signature="2757:3015" ph="..." />
+                <marker date="1488375341722" expanded="true" signature="2910:3015" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tournoisAVenir.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tournoisAVenir.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <folding>
+                <marker date="1488375249781" expanded="true" signature="738:959" ph="..." />
+                <marker date="1488375249781" expanded="true" signature="990:1024" ph="..." />
+                <marker date="1488375249781" expanded="true" signature="1788:2019" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,25 +88,10 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="51">
+              <caret line="3" column="3" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
               <folding>
-                <marker date="1488375015650" expanded="true" signature="867:902" ph="..." />
-                <marker date="1488375015650" expanded="true" signature="983:1193" ph="..." />
                 <marker date="1488375015650" expanded="true" signature="1496:1536" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="entete.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/entete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-              <folding>
-                <marker date="1488375126694" expanded="true" signature="58:228" ph="..." />
-                <marker date="1488375126694" expanded="true" signature="246:567" ph="..." />
               </folding>
             </state>
           </provider>
@@ -80,7 +114,9 @@
         <option value="$PROJECT_DIR$/player.html" />
         <option value="$PROJECT_DIR$/CSS/styles.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/tournoisAVenir.php" />
         <option value="$PROJECT_DIR$/entete.php" />
+        <option value="$PROJECT_DIR$/recherche.php" />
       </list>
     </option>
   </component>
@@ -216,12 +252,12 @@
       <workItem from="1487164389561" duration="9000" />
       <workItem from="1487872677705" duration="1018000" />
       <workItem from="1488228096997" duration="598000" />
-      <workItem from="1488374814895" duration="329000" />
+      <workItem from="1488374814895" duration="546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19595000" />
+    <option name="totallyTimeSpent" value="19812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,8 +321,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/player.html" />
-    <entry file="file://$PROJECT_DIR$/4games.html" />
     <entry file="file://$PROJECT_DIR$/CSS/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -395,14 +429,6 @@
     <entry file="file://$PROJECT_DIR$/player.html" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/Evenement.html" />
-    <entry file="file://$PROJECT_DIR$/CSS/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tournois.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -411,13 +437,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="2" />
           <folding>
-            <marker date="1488375015650" expanded="true" signature="867:902" ph="..." />
-            <marker date="1488375015650" expanded="true" signature="983:1193" ph="..." />
             <marker date="1488375015650" expanded="true" signature="1496:1536" ph="..." />
           </folding>
         </state>
@@ -425,11 +457,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/entete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="204">
+          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
           <folding>
-            <marker date="1488375126694" expanded="true" signature="58:228" ph="..." />
-            <marker date="1488375126694" expanded="true" signature="246:567" ph="..." />
+            <marker date="1488375309730" expanded="true" signature="58:228" ph="..." />
+            <marker date="1488375309730" expanded="true" signature="246:569" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tournoisAVenir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <marker date="1488375249781" expanded="true" signature="738:959" ph="..." />
+            <marker date="1488375249781" expanded="true" signature="990:1024" ph="..." />
+            <marker date="1488375249781" expanded="true" signature="1788:2019" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recherche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <marker date="1488375341722" expanded="true" signature="1461:2103" ph="..." />
+            <marker date="1488375341722" expanded="true" signature="1482:1625" ph="..." />
+            <marker date="1488375341722" expanded="true" signature="1646:1774" ph="..." />
+            <marker date="1488375341722" expanded="true" signature="1795:1928" ph="..." />
+            <marker date="1488375341722" expanded="true" signature="1949:2082" ph="..." />
+            <marker date="1488375341722" expanded="true" signature="2145:2730" ph="..." />
+            <marker date="1488375341722" expanded="true" signature="2314:2602" ph="..." />
+            <marker date="1488375341722" expanded="true" signature="2757:3015" ph="..." />
+            <marker date="1488375341722" expanded="true" signature="2910:3015" ph="..." />
           </folding>
         </state>
       </provider>
