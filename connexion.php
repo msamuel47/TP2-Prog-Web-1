@@ -21,6 +21,7 @@
                 <td> <input type="password" name="mdp" /></td>
             </tr>
         </table>
+        <input type="submit"  value="connexion"/>
     </form>
 </div>
 </body>

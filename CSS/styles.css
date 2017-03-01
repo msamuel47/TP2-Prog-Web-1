@@ -16,7 +16,10 @@
 }
 #login
 {
-	float:left;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 320px;
 }
 #login_space
 {
