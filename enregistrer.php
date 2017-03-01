@@ -10,6 +10,7 @@ include  "pieddepage.php";
 	<link rel="stylesheet" href="CSS/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link rel="javascript" type="text/javascript" href="js/validerchamps.js">
 </head>
 <body>
 	<div id="container">
@@ -25,7 +26,7 @@ include  "pieddepage.php";
 			<div id="droite">
 				<p class="title" style="color: black;">Enregistrer un tournoi</p>
                 <div id="form">
-                <form action="traitement.php" method="post" onsubmit="" >
+                <form action="traitement.php" method="post" onsubmit="ValiderLesChamps()" >
                     <table>
                         <tr>
                             <td><label> Nom de l'événement :</label></td>
