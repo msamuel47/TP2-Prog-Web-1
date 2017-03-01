@@ -66,14 +66,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enregistrer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="enregistrer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enregistrer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
-              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
-                <marker date="1488375977660" expanded="true" signature="493:590" ph="..." />
-                <marker date="1488375977660" expanded="true" signature="648:837" ph="..." />
+                <marker date="1488376124093" expanded="true" signature="493:574" ph="..." />
+                <marker date="1488376124093" expanded="true" signature="632:821" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tournoisAVenir.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tournoisAVenir.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tournoisAVenir.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -274,12 +274,12 @@
       <workItem from="1487164389561" duration="9000" />
       <workItem from="1487872677705" duration="1018000" />
       <workItem from="1488228096997" duration="598000" />
-      <workItem from="1488374814895" duration="1237000" />
+      <workItem from="1488374814895" duration="1309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20503000" />
+    <option name="totallyTimeSpent" value="20575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,6 +489,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enregistrer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1488376124093" expanded="true" signature="493:574" ph="..." />
+            <marker date="1488376124093" expanded="true" signature="632:821" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/traitement.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -507,25 +526,6 @@
             <marker date="1488375249781" expanded="true" signature="738:959" ph="..." />
             <marker date="1488375249781" expanded="true" signature="990:1024" ph="..." />
             <marker date="1488375249781" expanded="true" signature="1788:2019" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="47" column="15" lean-forward="false" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enregistrer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <marker date="1488375977660" expanded="true" signature="493:590" ph="..." />
-            <marker date="1488375977660" expanded="true" signature="648:837" ph="..." />
           </folding>
         </state>
       </provider>

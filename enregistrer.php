@@ -23,7 +23,7 @@ include  "entete.php";
 			</div>
 			<div id="droite">
 				<p class="title" style="color: black;">Enregistrer un tournoi</p>
-                
+
 			</div>
 
 			<div class="clear"></div>
