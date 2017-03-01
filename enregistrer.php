@@ -24,23 +24,31 @@ include  "pieddepage.php";
 			</div>
 			<div id="droite">
 				<p class="title" style="color: black;">Enregistrer un tournoi</p>
-                <form action="traitement.php" method="post" >
+                <form id="form" action="traitement.php" method="post" >
                     <table>
                         <tr>
-                            <td><label> Prenom :</label></td>
-                            <td><input type="text" name="prenom"/></td>
+                            <td><label> Nom de l'événement :</label></td>
+                            <td><input type="text" name="nomEvent"/></td>
                         </tr>
                         <tr>
-                            <td><label> Nom :</label></td>
-                            <td> <input type="text" name="nom" /></td>
+                            <td><label> Date :</label></td>
+                            <td> <input type="date" name="date" /></td>
                         </tr>
                         <tr>
-                            <td><label> Matricule :</label></td>
-                            <td> <input type="text" name="matricule" maxlength="3" size="3" /></td>
+                            <td><label> Ville :</label></td>
+                            <td> <input type="text" name="city" /></td>
                         </tr>
                         <tr>
-                            <td><label> Jours demandés :</label></td>
-                            <td> <input type="text" name="jours"/></td>
+                            <td><label> Pays :</label></td>
+                            <td> <input type="text" name="country"/></td>
+                        </tr>
+                        <tr>
+                            <td><label> Jeu :</label></td>
+                            <td> <input type="text" name="game"/></td>
+                        </tr>
+                        <tr>
+                            <td><label> Nombre maximum de joueurs :</label></td>
+                            <td> <input type="number" maxlength="4" name="maxPlayer"/></td>
                         </tr>
                         <tr>
                             <td colspan="2"><input type="submit" value="soumettre"/></td>
