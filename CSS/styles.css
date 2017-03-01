@@ -2,22 +2,25 @@
 {
 	float: left;
 	height:200px;
-	width:200px;
+	width:25%;
 	background-color: red;
+	border-radius: 20px;
 }
 #banner
 {
 	float: right;
-	width: 824px;
+	width: 74%;
 	height: 180px;
 	background-color: blue;
+	border-radius: 20px;
 }
 #login_space
 {
 	height:20px;
-	width:824px;
+	width:74%;
 	float:right;
 	background-color:green;
+	border-radius: 10px;
 }
 #entete
 {
@@ -41,7 +44,7 @@
 {
 margin:auto;
 width:1024px;
-height:2000px;	
+height:100%;	
 }
 
 #gauche
@@ -49,7 +52,7 @@ height:2000px;
 	border-radius: 20px;
 	background-color: #298cce;
     height :1000px;
-    width:39%;
+    width:25%;
 	float:left;
 }
 #droite2
@@ -66,7 +69,7 @@ height:2000px;
     border-radius: 20px;
 	background-color:#c9d4db;
 	height:1000px;
-	width:59%;
+	width:73%;
 	float:right;
 	
 }
@@ -77,6 +80,7 @@ height:2000px;
 	height:190px;
 	background-color: black;
 	margin-top: 15px;
+	
 }
 .title
 {
