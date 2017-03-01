@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38210269-266b-42f2-aa47-13a7eb96a2f8" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/player.php" afterPath="$PROJECT_DIR$/recherche.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entete.php" afterPath="$PROJECT_DIR$/entete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tournoisAVenir.php" afterPath="$PROJECT_DIR$/tournoisAVenir.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/4games.php" afterPath="$PROJECT_DIR$/enregistrer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recherche.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="recherche.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recherche.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="-419">
               <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <marker date="1488375341722" expanded="true" signature="1461:2103" ph="..." />
@@ -67,6 +64,16 @@
                 <marker date="1488375341722" expanded="true" signature="2757:3015" ph="..." />
                 <marker date="1488375341722" expanded="true" signature="2910:3015" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="traitement.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/traitement.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -252,12 +259,12 @@
       <workItem from="1487164389561" duration="9000" />
       <workItem from="1487872677705" duration="1018000" />
       <workItem from="1488228096997" duration="598000" />
-      <workItem from="1488374814895" duration="546000" />
+      <workItem from="1488374814895" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19812000" />
+    <option name="totallyTimeSpent" value="19889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,14 +328,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CSS/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/Evenement.html" />
     <entry file="file://$PROJECT_DIR$/player.html" />
@@ -480,7 +479,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recherche.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="-419">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
             <marker date="1488375341722" expanded="true" signature="1461:2103" ph="..." />
@@ -493,6 +492,14 @@
             <marker date="1488375341722" expanded="true" signature="2757:3015" ph="..." />
             <marker date="1488375341722" expanded="true" signature="2910:3015" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/traitement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
