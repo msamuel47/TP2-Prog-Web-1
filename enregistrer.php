@@ -23,7 +23,31 @@ include  "entete.php";
 			</div>
 			<div id="droite">
 				<p class="title" style="color: black;">Enregistrer un tournoi</p>
+                <form action="traitement.php" method="post" >
+                    <table>
+                        <tr>
+                            <td><label> Prenom :</label></td>
+                            <td><input type="text" name="prenom"/></td>
+                        </tr>
+                        <tr>
+                            <td><label> Nom :</label></td>
+                            <td> <input type="text" name="nom" /></td>
+                        </tr>
+                        <tr>
+                            <td><label> Matricule :</label></td>
+                            <td> <input type="text" name="matricule" maxlength="3" size="3" /></td>
+                        </tr>
+                        <tr>
+                            <td><label> Jours demandés :</label></td>
+                            <td> <input type="text" name="jours"/></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" value="soumettre"/></td>
+                        </tr>
+                    </table>
 
+
+                </form>
 			</div>
 
 			<div class="clear"></div>
