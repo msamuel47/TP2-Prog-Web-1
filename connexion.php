@@ -11,11 +11,11 @@ echo "
     <form action=\"validerUtilisateur.php\" method=\"post\">
                         <table>
                         <tr>
-                            <td><label>Nom d'utilisateu</label></td>
+                            <td><label>Nom d'utilisateur :</label></td>
                             <td><input type=\"text\" name=\"username\"/></td>
                         </tr>
                         <tr>
-                            <td><label>Mot de passe</label></td>
+                            <td><label>Mot de passe :</label></td>
                             <td> <input type=\"password\" name=\"mdp\" /></td>
                         </tr>
                         </table>                        

@@ -19,8 +19,14 @@
 	height:20px;
 	width:74%;
 	float:right;
-	background-color:green;
+	background-color:white;
 	border-radius: 10px;
+}
+#loginlink
+{
+	font-size: 12pt;
+	font-family: "Times New Roman";
+	text-align: right;
 }
 #entete
 {

@@ -10,7 +10,7 @@ include  "pieddepage.php";
 	<link rel="stylesheet" href="CSS/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-    <link rel="javascript" type="text/javascript" href="js/validerchamps.js">
+    <link rel="javascript" type="text/javascript" href="js/banniere.js">
 </head>
 <body>
 	<div id="container">

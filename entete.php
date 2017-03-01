@@ -4,7 +4,7 @@ function ShowHeader()
 {
     echo '	<div id="entete">
 			<div id="logo"></div>
-			<div id="login_space"></div>
+			<div id="login_space"><a id="loginlink" href="connexion.php"></a></div>
 			<div id="banner"></div>
 			
 			<div class="clear"></div>
