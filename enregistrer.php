@@ -25,7 +25,7 @@ include  "pieddepage.php";
 			<div id="droite">
 				<p class="title" style="color: black;">Enregistrer un tournoi</p>
                 <div id="form">
-                <form action="traitement.php" method="post" >
+                <form action="traitement.php" method="post" onsubmit="" >
                     <table>
                         <tr>
                             <td><label> Nom de l'événement :</label></td>
@@ -52,7 +52,7 @@ include  "pieddepage.php";
                             <td> <input type="number" maxlength="4" name="maxPlayer"/></td>
                         </tr>
                         <tr>
-                            <td colspan="2"><input type="submit" value="soumettre"/></td>
+                            <td colspan="2"><input type="submit" onsubmit="" value="soumettre"/></td>
                         </tr>
                     </table>
 
