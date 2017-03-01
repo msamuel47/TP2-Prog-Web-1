@@ -15,7 +15,7 @@ if( !empty($_POST['nomEvent']) && !empty($_POST['date']) && !empty($_POST['city'
 }
 else
 {
-    echo'<di';
+    echo'';
 }
 
 function EnregistrerLaForm()
