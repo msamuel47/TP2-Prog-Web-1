@@ -3,8 +3,10 @@
 function ShowHeader()
 {
     echo '	<div id="entete">
-			<img class="logoandbanner" src="img/logo.png" alt="TheLogo">
-			<img class="logoandbanner" src="img/banner.png" alt="TheBanner">
+			<div id="logo"></div>
+			<div id="login_space"></div>
+			<div id="banner"></div>
+			
 			<div class="clear"></div>
 		</div>
 		<div id="menu">

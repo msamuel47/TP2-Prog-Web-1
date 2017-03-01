@@ -1,7 +1,23 @@
-.logoandbanner
+#logo
 {
- float:left;
- 
+	float: left;
+	height:200px;
+	width:200px;
+	background-color: red;
+}
+#banner
+{
+	float: right;
+	width: 824px;
+	height: 180px;
+	background-color: blue;
+}
+#login_space
+{
+	height:20px;
+	width:824px;
+	float:right;
+	background-color:green;
 }
 #entete
 {
