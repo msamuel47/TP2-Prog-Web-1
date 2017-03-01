@@ -7,8 +7,20 @@
  */
 
 
+//Validation de la form
+if( !empty($_POST['nomEvent']) && !empty($_POST['date']) && !empty($_POST['city'])
+    && !empty($_POST['city']) && !empty($_POST['country']) && !empty($_POST['game']) )
+{
+  EnregistrerLaForm();
+}
+else
+{
+    echo'<di';
+}
 
+function EnregistrerLaForm()
+{
 
-
+}
 
 ?>
