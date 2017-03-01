@@ -7,7 +7,11 @@
 {
 	
 }
-
+#form
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
 #menu
 {
    border-radius: 20px;

@@ -6,7 +6,7 @@ include  "pieddepage.php";
 ?>
 <head>
     <meta charset="UTF-8">
-    <title>Top 3 joueurs</title>
+    <title>Rechercher</title>
     <link rel="stylesheet" href="CSS/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>

@@ -6,7 +6,7 @@ include  "pieddepage.php";
 ?>
 <head>
 	<meta charset="UTF-8">
-	<title>Les 4 jeux</title>
+	<title>Enregistrer</title>
 	<link rel="stylesheet" href="CSS/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
@@ -24,7 +24,8 @@ include  "pieddepage.php";
 			</div>
 			<div id="droite">
 				<p class="title" style="color: black;">Enregistrer un tournoi</p>
-                <form id="form" action="traitement.php" method="post" >
+                <div id="form">
+                <form action="traitement.php" method="post" >
                     <table>
                         <tr>
                             <td><label> Nom de l'événement :</label></td>
@@ -57,6 +58,7 @@ include  "pieddepage.php";
 
 
                 </form>
+                </div>
 			</div>
 
 			<div class="clear"></div>
