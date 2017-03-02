@@ -17,13 +17,16 @@ include  "pieddepage.php";
 	
         <?php
         ShowHeader();
+
         ?>
 		<div id="contenu">
 			<div id="gauche">
-			
+
 			</div>
 			<div id="droite">
-				
+                <?php
+                     var_dump($_SESSION['user']);
+                ?>
 			</div>
 			
 

@@ -37,6 +37,16 @@
 	font-family: "Times New Roman";
 	text-align: right;
 }
+#welcomemessage
+{
+	margin: 0px;
+	font-size: 12pt;
+	font-family: 'Open Sans', sans-serif;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 5px;
+
+}
 #entete
 {
 	

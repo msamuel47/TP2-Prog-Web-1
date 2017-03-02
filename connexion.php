@@ -18,10 +18,11 @@
             </tr>
             <tr>
                 <td><label>Mot de passe :</label></td>
-                <td> <input type="text" name="mdp" /></td>
+                <td> <input type="password" name="mdp" /></td>
             </tr>
         </table>
         <input type="submit"  value="connexion"/>
+
     </form>
 </div>
 </body>

@@ -5,9 +5,9 @@
  * Date: 2017-03-01
  * Time: 3:00 PM
  */
-
+session_start();
 if (!empty($_POST['username']) && !empty($_POST['mdp'])) {
-    session_start();
+
     $user = $_POST['username'];
     $pass = $_POST['mdp'];
     if (is_file('admins.txt')) {
@@ -34,16 +34,34 @@ var_dump($user);
 
             if ($user == trim($userAndPassword[$i][0]) && $pass ==  trim($userAndPassword[$i][1]))
             {
-             
+                var_dump($user);
+                var_dump($pass);
+                $_SESSION['user'] = $user;
 
+                $userAndPasswordOk = true;
             }
         }
 
 
     }
+    if($userAndPasswordOk = true)
+    {
+        var_dump($userAndPasswordOk);
+        var_dump($_SESSION['user']);
+        header('Location: index.php');
+    }
 }
 
 else
 {
-
+    if (empty($_POST['username']))
+    {
+        echo '<p id="errormessageuser">Veuillez saisir un nom d\'utilisateur</p>';
+        header('Location:connexion.php');
+    }
+    if (empty($_POST['mdp']))
+    {
+        echo '<p id="errormessagepassword">Veuillez saisir un mdp</p>';
+        header('Location:connexion.php');
+    }
 }
