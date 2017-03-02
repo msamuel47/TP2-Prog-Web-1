@@ -21,7 +21,8 @@ if (!empty($_POST['username']) && !empty($_POST['mdp'])) {
             $userLength++;
 
         }
-
+echo $user;
+        echo ' ' .$pass. '</br>';
         for ($i = 0; $i < $userLength; $i++) {
              // i = indice pour trouve le combo utilisateur/mdp
             //  0 ou 1 pour trouver dans le combo utilisateur/mdp la valeur du user ou du mdp
