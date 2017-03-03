@@ -8,5 +8,24 @@
 
 function ShowTournament()
 {
-    is_file("tounois.txt");
+    if(is_file("tournois.txt"))
+    {
+        $arrayOfString = file("tournois.txt");
+
+        foreach($arrayOfString as $key => $value)
+        {
+           $arrayOfString[$key] = explode('|' , trim($value));
+
+        }
+        echo'<table id="showedtournament" border="">
+<th>Nom de l\'évenement</th>
+<th>Date</th>
+<th>Ville</th>
+<th>Pays</th>
+<th>Le jeu</th>
+<th>Nombre de joueurs</th>
+</table>';
+        
+
+    }
 }

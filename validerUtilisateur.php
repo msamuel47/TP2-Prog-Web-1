@@ -49,6 +49,7 @@ var_dump($user);
         var_dump($_SESSION['user']);
         header('Location: index.php');
     }
+
 }
 // Section de gestion des codes d'erreur
 else
@@ -58,7 +59,7 @@ else
     {
         header('Location:connexion.php?error=0');
     }
-    // Code 1 = mot de pass manquant
+    // Code 1 = mot de passe manquant
     if (empty($_POST['mdp']) && !empty($_POST['username']))
     {
         header('Location:connexion.php?error=1');
