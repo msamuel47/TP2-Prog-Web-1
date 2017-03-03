@@ -24,7 +24,6 @@ include  "pieddepage.php";
 
 			</div>
 			<div id="droite">
-
 			</div>
 			
 

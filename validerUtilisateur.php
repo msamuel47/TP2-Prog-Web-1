@@ -37,7 +37,6 @@ var_dump($user);
                 var_dump($user);
                 var_dump($pass);
                 $_SESSION['user'] = $user;
-
                 $userAndPasswordOk = true;
             }
         }
@@ -51,17 +50,23 @@ var_dump($user);
         header('Location: index.php');
     }
 }
-
+// Section de gestion des codes d'erreur
 else
 {
+    // Code 0 = username manquant
     if (empty($_POST['username']))
     {
-        echo '<p id="errormessageuser">Veuillez saisir un nom d\'utilisateur</p>';
-        header('Location:connexion.php');
+        header('Location:connexion.php?error=0');
     }
-    if (empty($_POST['mdp']))
+    // Code 1 = mot de pass manquant
+    if (empty($_POST['mdp']) && !empty($_POST['username']))
     {
-        echo '<p id="errormessagepassword">Veuillez saisir un mdp</p>';
-        header('Location:connexion.php');
+        header('Location:connexion.php?error=1');
     }
+    // Code 2 = mot de passe et nom d'utilisateur manquant
+    if (empty($_POST['mdp']) && empty($_POST['username']))
+    {
+        header('Location:connexion.php?error=2');
+    }
+
 }
