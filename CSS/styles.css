@@ -6,6 +6,10 @@
 	background-color: red;
 	border-radius: 20px;
 }
+#errormessage
+{
+	color: darkred;
+}
 #banner
 {
 	float: right;
@@ -13,6 +17,17 @@
 	height: 180px;
 	background-color: blue;
 	border-radius: 20px;
+}
+#errortextbox
+{
+	float: right;
+
+}
+.errormessagelol
+{
+color: darkred;
+	font-family: "Times New Roman";
+	font-size: 12pt;
 }
 #login
 {

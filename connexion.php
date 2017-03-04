@@ -24,5 +24,27 @@
         <input type="submit"  value="connexion"/>
 
     </form>
+    <?php
+
+    if (isset($_GET['error']))
+    {
+        echo '<div id="errortextbox">';
+        if($_GET['error'] == 0)
+        {
+            echo '<p class="errormessagelol">Votre nom d\'utilisateur est manquant</p>';
+        }
+        if($_GET['error'] == 1)
+        {
+            echo '<p class="errormessagelol">Votre mot de passe est manquant</p>';
+        }
+        if($_GET['error'] == 2)
+        {
+            echo '<p class="errormessagelol">Votre nom d\'utilisateur est manquant</p></br>
+<p class="errormessagelol">Votre mot de passe est manquant</p>';
+        }
+        echo '</div>';
+
+    }
+    ?>
 </div>
 </body>

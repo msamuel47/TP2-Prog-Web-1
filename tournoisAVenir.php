@@ -3,6 +3,7 @@
 <?php
 include  "entete.php";
 include  "pieddepage.php";
+include  "afficherTournois.php";
 ?>
 <head>
 	<meta charset="UTF-8">
@@ -22,7 +23,9 @@ include  "pieddepage.php";
 			
 			</div>
 			<div id="droite">
-				
+                <?php
+                ShowTournament();
+                ?>
 			</div>
 			<div class="clear"></div>
 		</div>
