@@ -1,15 +1,16 @@
-function  ValiderLesChamps()
-{
-    window.alert("Sa marche ?");
-if(Document.getElementsByName("nomEvent").length == 0 || Document.getElementsByName("date").length == 0 || Document.getElementsByName("city").Length == 0
-   || Document.getElementsByName("country").length == 0 || Document.getElementsByName("game").length == 0)
-{
-  window.alert("Il vous manque un ou plusieurs champs à remplir ... veuillez bien remplir le formulaire avant de confirmer");
-  return false;
-}
-else
-{
-    return true;
-}
-}
+
+ var imgs =[img/image1.jpg","img/image2.jpg","img/image3.jpg","img/image4.jpg","img/image5.jpg"];
+ 
+ function change_pic(i)
+ {
+	if(i==4)
+	{
+		i=0;
+	}
+	else
+	{
+		i++;
+	}
+	document.getElementById["defile"].src="imgs[i]";
+ }
 
