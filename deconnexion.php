@@ -3,5 +3,5 @@ session_start();
 
 
 unset($_SESSION['user']);
-
-header("Location:index.php");
+//La deconnexion a lieu avec succes
+header("Location:index.php?logoff=1");

@@ -36,12 +36,13 @@ function GetFutureTournament()
         foreach ($tournois as $key => $value) {
             if ($tournois[$key][1] > time()) {
                 $tournoisAAfficher[$key] = $tournois[$key];
+
             } else {
                 $tournoisPasserDate[$key] = $tournois[$key];
             }
 
 
         }
-
+var_dump($tournoisAAfficher);
     }
 }
