@@ -25,7 +25,7 @@ function ShowTournament()
 <th>Le jeu</th>
 <th>Nombre de joueurs</th>
 </table>';
-        
+
 
     }
 }
