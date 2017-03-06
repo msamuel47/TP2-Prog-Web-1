@@ -10,6 +10,7 @@ function ShowTournament()
             $arrayOfString[$key] = explode('|', trim($value));
         }
         GetOrganisedTournament(0);
+        GetOrganisedTournament(1);
 
     }
 }
@@ -22,11 +23,12 @@ function GetOrganisedTournament($upperOrLower)
     if (is_file("tournois.txt")) {
         //ouverture du fichier en question
         $tournoisATrier = file('tournois.txt');
+        //Afficher les tournois qui sont terminés
         if ($upperOrLower == 0) {
             $tournoisPasserDate = TrierTableau($tournoisATrier, 0, 1, Time());
 
             echo '<p class="title" style="color: black;">Tournois terminés</p>';
-            echo '<div id="tableTournament"><table id="showedtournament" border="1">
+            echo '<div class="tableTournament"><table class="tablestyle" border="1">
               <th>Nom de l\'évenement</th>
               <th>Date</th>
               <th>Ville</th>
@@ -39,30 +41,63 @@ function GetOrganisedTournament($upperOrLower)
 
                 echo '<tr>';
                 echo '<td>';
-                echo  $tournoisPasserDate[$index][0];
+                echo $tournoisPasserDate[$index][0];
                 echo '</td>';
                 echo '<td>';
-                echo date("F j, Y" , $tournoisPasserDate[$index][1]);
+                echo date("F j, Y", $tournoisPasserDate[$index][1]);
                 echo '</td>';
                 echo '<td>';
-                echo  $tournoisPasserDate[$index][2];
+                echo $tournoisPasserDate[$index][2];
                 echo '</td>';
                 echo '<td>';
-                echo  $tournoisPasserDate[$index][3];
+                echo $tournoisPasserDate[$index][3];
                 echo '</td>';
                 echo '<td>';
-                echo  $tournoisPasserDate[$index][4];
+                echo $tournoisPasserDate[$index][4];
                 echo '</td>';
                 echo '<td>';
-                echo  $tournoisPasserDate[$index][5];
+                echo trim($tournoisPasserDate[$index][5]);
                 echo '</td>';
                 echo '</tr>';
             }
-echo '</table></div>';
+            echo '</table></div>';
         }
+        //Afficher les tournois à venir
         if ($upperOrLower == 1) {
             $tournoisAVenir = TrierTableau($tournoisATrier, 1, 1, Time());
-            var_dump($tournoisAVenir);
+            echo '<p class="title" style="color: black;">Tournois à venir</p>';
+            echo '<div class="tableTournament"><table class="tablestyle" border="1">
+              <th>Nom de l\'évenement</th>
+              <th>Date</th>
+              <th>Ville</th>
+              <th>Pays</th>
+              <th>Le jeu</th>
+              <th>Nombre de joueurs</th>
+              ';
+            foreach ($tournoisAVenir as $index => $value) {
+
+                echo '<tr>';
+                echo '<td>';
+                echo $tournoisAVenir[$index][0];
+                echo '</td>';
+                echo '<td>';
+                echo date("F j, Y", $tournoisAVenir[$index][1]);
+                echo '</td>';
+                echo '<td>';
+                echo $tournoisAVenir[$index][2];
+                echo '</td>';
+                echo '<td>';
+                echo $tournoisAVenir[$index][3];
+                echo '</td>';
+                echo '<td>';
+                echo $tournoisAVenir[$index][4];
+                echo '</td>';
+                echo '<td>';
+                echo trim($tournoisAVenir[$index][5]);
+                echo '</td>';
+                echo '</tr>';
+            }
+            echo '</table></div>';
         }
     }
 }

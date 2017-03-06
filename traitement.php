@@ -35,7 +35,7 @@ function EnregistrerLaForm()
         $stringTimestamp = strval($timestamp);
 
         //Inscription du tournois dans le fichier de texte
-        $evenementFormate = "\r\n"  .$_POST['nomEvent'] . '|' . $stringTimestamp . '|' . $_POST['city'] . '|' . $_POST['country'] . '|' . $_POST['game'] . '|' . $_POST['maxPlayer'];
+        $evenementFormate = "\r"  .$_POST['nomEvent'] . '|' . $stringTimestamp . '|' . $_POST['city'] . '|' . $_POST['country'] . '|' . $_POST['game'] . '|' . $_POST['maxPlayer'];
         // Si l'écriture sur le fichier ne fonctionne pas ...
         if(fwrite($fichier , $evenementFormate) == true){
             //Code de succès 1 = l'événement à bel et bien été enregistré ...

@@ -22,7 +22,7 @@ include  "afficherTournois.php";
 			<div id="gauche" style="height: 520px;">
 			
 			</div>
-			<div id="droite">
+			<div id="droite" style="height: 100%;">
                 <?php
                 ShowTournament();
                 ?>

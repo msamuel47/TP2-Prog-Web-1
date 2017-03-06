@@ -6,11 +6,14 @@
 	background-color: red;
 	border-radius: 20px;
 }
-#tableTournament
+.tableTournament
 {
-	margin-left: 25px;
+	margin-left: auto;
 	margin-right: auto;
 	width: 750px;
+}
+.tablestyle{
+	width: 100%;
 }
 #errormessage
 {
@@ -108,21 +111,12 @@ height:100%;
     width:25%;
 	float:left;
 }
-#droite2
-{
-	border-radius: 20px;
-	float: right;
-	height: 465px;
-	width : 59%;
-	background-color:#c9d4db;
-	margin-top: 15px;
-}
 #droite
 {
     border-radius: 20px;
 	background-color:#c9d4db;
 	height:1000px;
-	width:73%;
+	width:74%;
 	float:right;
 	
 }
