@@ -15,6 +15,9 @@
             <tr>
                 <td><label>Nom d'utilisateur :</label></td>
                 <td><input type="text" name="username"/></td>
+                <?php
+
+                ?>
             </tr>
             <tr>
                 <td><label>Mot de passe :</label></td>
@@ -28,7 +31,7 @@
 
     if (isset($_GET['error']))
     {
-        echo '<div id="errortextbox">';
+
         if($_GET['error'] == 0)
         {
             echo '<p class="errormessagelol">Votre nom d\'utilisateur est manquant</p>';
@@ -42,7 +45,7 @@
             echo '<p class="errormessagelol">Votre nom d\'utilisateur est manquant</p></br>
 <p class="errormessagelol">Votre mot de passe est manquant</p>';
         }
-        echo '</div>';
+
 
     }
     ?>
