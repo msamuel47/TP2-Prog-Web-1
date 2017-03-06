@@ -1,3 +1,5 @@
 bob|leponge
 patrick|star
 admin|admin123
+Sam|vincent
+Felix|bergeron
