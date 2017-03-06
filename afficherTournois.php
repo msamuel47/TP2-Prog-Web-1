@@ -25,7 +25,7 @@ function GetOrganisedTournament($upperOrLower)
         if ($upperOrLower == 0) {
             $tournoisPasserDate = TrierTableau($tournoisATrier, 0, 1, Time());
 
-            echo'<p class="title" style="color: black;">Tournois terminés</p>';
+            echo '<p class="title" style="color: black;">Tournois terminés</p>';
             echo '<div id="tableTournament"><table id="showedtournament" border="1">
               <th>Nom de l\'évenement</th>
               <th>Date</th>
@@ -33,7 +33,32 @@ function GetOrganisedTournament($upperOrLower)
               <th>Pays</th>
               <th>Le jeu</th>
               <th>Nombre de joueurs</th>
-              </table></div>';
+              ';
+
+            foreach ($tournoisPasserDate as $index => $value) {
+
+                echo '<tr>';
+                echo '<td>';
+                echo  $tournoisPasserDate[$index][0];
+                echo '</td>';
+                echo '<td>';
+                echo date("F j, Y" , $tournoisPasserDate[$index][1]);
+                echo '</td>';
+                echo '<td>';
+                echo  $tournoisPasserDate[$index][2];
+                echo '</td>';
+                echo '<td>';
+                echo  $tournoisPasserDate[$index][3];
+                echo '</td>';
+                echo '<td>';
+                echo  $tournoisPasserDate[$index][4];
+                echo '</td>';
+                echo '<td>';
+                echo  $tournoisPasserDate[$index][5];
+                echo '</td>';
+                echo '</tr>';
+            }
+echo '</table></div>';
         }
         if ($upperOrLower == 1) {
             $tournoisAVenir = TrierTableau($tournoisATrier, 1, 1, Time());

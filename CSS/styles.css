@@ -6,6 +6,12 @@
 	background-color: red;
 	border-radius: 20px;
 }
+#tableTournament
+{
+	margin-left: 25px;
+	margin-right: auto;
+	width: 750px;
+}
 #errormessage
 {
 	color: darkred;
