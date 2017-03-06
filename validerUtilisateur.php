@@ -18,10 +18,7 @@ if (!empty($_POST['username']) && !empty($_POST['mdp'])) {
 
         foreach ($verification as $key => $value) {
             $userAndPassword[$key] = explode('|', $value);
-
-
             $userLength++;
-
         }
 var_dump($user);
 

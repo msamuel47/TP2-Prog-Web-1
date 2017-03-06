@@ -37,6 +37,11 @@ include  "pieddepage.php";
                             {
                                 echo '<td><p class="errormessagelol">Des champs sont manquant, veuillez complèter le formulaire</p></td>';
                             }
+                            if(isset($_GET['succes'])){
+                                if($_GET['succes'] == 1){
+                                    echo '<td><p style="color: darkgreen ; font-family: \'Oxygen\', sans-serif">Evenement enregistré avec succès ...</p></td>';
+                                }
+                            }
                             ?>
                         </tr>
                         <tr>
