@@ -3,7 +3,7 @@
 <?php
 include  "entete.php";
 include  "pieddepage.php";
-include "htmlhead";
+include "htmlhead.php";
 MakeHTMLHead();
 ?>
 

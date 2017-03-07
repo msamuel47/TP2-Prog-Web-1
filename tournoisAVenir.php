@@ -4,11 +4,11 @@
 include  "entete.php";
 include  "pieddepage.php";
 include  "afficherTournois.php";
-include "htmlhead";
+include "htmlhead.php";
 MakeHTMLHead();
 ?>
 
-<body onload="pictureCarousel()">
+<body onload="setInterval(pictureCarousel(),1000)">
 	<div id="container">
         <?php
         ShowHeader();

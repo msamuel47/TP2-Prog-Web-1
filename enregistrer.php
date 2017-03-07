@@ -3,11 +3,11 @@
 <?php
 include  "entete.php";
 include  "pieddepage.php";
-include  "htmlhead";
+include  "htmlhead.php";
 MakeHTMLHead();
 ?>
 
-<body>
+<body onload="setInterval(pictureCarousel(),1000)">
 	<div id="container">
         <?php
         ShowHeader();
