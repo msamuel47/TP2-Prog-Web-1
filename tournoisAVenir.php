@@ -17,10 +17,7 @@ include  "afficherTournois.php";
         ShowHeader();
         ?>
 		<div id="contenu">
-		
-		
-			<div id="gauche" style="height: 520px;">
-			
+			<div id="gauche" style="height: 720px;">
 			</div>
 			<div id="droite" style="height: 100%;">
                 <?php
@@ -29,7 +26,6 @@ include  "afficherTournois.php";
 			</div>
 			<div class="clear"></div>
 		</div>
-
         <?php
             ShowFooter();
         ?>

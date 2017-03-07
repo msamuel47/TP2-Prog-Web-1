@@ -8,11 +8,14 @@
 }
 .tableTournament
 {
+
 	margin-left: auto;
 	margin-right: auto;
 	width: 750px;
 }
 .tablestyle{
+	border-radius: 25px;
+	border-style: outset;
 	width: 100%;
 	font-family: 'Oxygen', sans-serif;
 }
