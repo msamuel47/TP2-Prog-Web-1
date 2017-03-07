@@ -2,7 +2,9 @@
 
 function ShowHeader()
 {
+
     session_start();
+
     echo '	<div id="entete">
 			<div id="logo"></div>
 			<div id="login_space"><p id="loginlink">';

@@ -1,21 +1,15 @@
 var compteur = 0;
-var pictureNameTab= ["img/a.jpg", "img/b.jpg", "img/c.jpg",
-    "img/d.jpg", "img/e.jpg", "img/f.jpg" ,"img/g.jpg" ,"img/h.jpg"];
+var pictureNameTab= ["img/image1.jpg", "img/image2.jpg"];
 var debutCompteur = Math.round(new Date().getTime()/1000);
 
-function nextPicture(interval) {
+function pictureCarousel() {
 
-
-
-    if(Math.round(new Date().getTime()/1000) == debutCompteur + interval){
-        compteur++;
-        
-        debutCompteur = Math.round(new Date().getTime()/1000);
+    if (compteur == pictureNameTab.length - 1){
+        compteur = 0;
     }
-
-
-
-
+    compteur++;
     document.getElementById("carousel").src = pictureNameTab[compteur];
 }
+
+
 

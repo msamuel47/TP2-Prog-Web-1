@@ -11,8 +11,9 @@ include  "pieddepage.php";
 	<link rel="stylesheet" href="CSS/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="js/banniere.js"></script>
 </head>
-<body>
+<body onload="setInterval(pictureCarousel(),1000)">
 	<div id="container">
 	
         <?php
@@ -21,7 +22,7 @@ include  "pieddepage.php";
         ?>
 		<div id="contenu">
 			<div id="gauche">
-
+                <img id="carousel" src="img/image1.jpg" style="width: 100%">
 			</div>
 			<div id="droite">
 			</div>
