@@ -8,7 +8,7 @@ MakeHTMLHead();
 ?>
 
 
-<body onload="setInterval(pictureCarousel(),1000)">
+<body onload="pictureCarousel()">
 	<div id="container">
 	
         <?php
@@ -17,7 +17,7 @@ MakeHTMLHead();
         ?>
 		<div id="contenu">
 			<div id="gauche">
-                <img id="carousel" src="img/image1.jpg" style="width: 100%">
+                <img id="carousel" src="img/image1.jpg">
 			</div>
 			<div id="droite">
 			</div>

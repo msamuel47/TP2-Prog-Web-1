@@ -13,6 +13,11 @@
 	margin-right: auto;
 	width: 750px;
 }
+#carousel{
+    height: 100%;
+
+
+}
 .tablestyle{
 	border-radius: 25px;
 	border-style: outset;
@@ -109,6 +114,7 @@ height:100%;
 
 #gauche
 {
+    overflow: hidden;
 	border-radius: 20px;
 	background-color: #298cce;
     height :1000px;

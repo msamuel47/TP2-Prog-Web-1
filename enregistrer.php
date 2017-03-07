@@ -7,7 +7,7 @@ include  "htmlhead.php";
 MakeHTMLHead();
 ?>
 
-<body onload="setInterval(pictureCarousel(),1000)">
+<body onload="setInterval(pictureCarousel())">
 	<div id="container">
         <?php
         ShowHeader();
@@ -16,7 +16,7 @@ MakeHTMLHead();
 		
 		
 			<div id="gauche" style="height: 450px ; background-color: #ff5b5a">
-                <img id="carousel" src="img/image1.jpg" style="width: 100%">
+                <img id="carousel" src="img/image1.jpg">
 			</div>
 			<div id="droite" style="height: 450px">
 				<p class="title" style="color: black;">Enregistrer un tournoi</p>

@@ -1,14 +1,13 @@
 var compteur = 0;
-var pictureNameTab= ["img/image1.jpg", "img/image2.jpg"];
-var debutCompteur = Math.round(new Date().getTime()/1000);
+var pictureNameTab= ["img/image1.jpg", "img/image2.jpg" , "img/image3.jpg"];
+var t = setInterval(pictureCarousel , 10000);
+
 
 function pictureCarousel() {
-
-    if (compteur == pictureNameTab.length - 1){
-        compteur = 0;
-    }
     compteur++;
+    compteur = compteur % pictureNameTab.length;
     document.getElementById("carousel").src = pictureNameTab[compteur];
+
 }
 
 
