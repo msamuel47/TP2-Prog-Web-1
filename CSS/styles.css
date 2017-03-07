@@ -1,296 +1,215 @@
-#logo
-{
-	float: left;
-	height:200px;
-	width:25%;
-	background-color: red;
-	border-radius: 20px;
+#logo {
+    float: left;
+    height: 200px;
+    width: 25%;
+    background-color: #c3ceb9;
+    border-radius: 20px;
 }
-.tableTournament
-{
+#bannerImage{
+    border-radius: 20px;
+}
 
-	margin-left: auto;
-	margin-right: auto;
-	width: 750px;
+
+.tableTournament {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
 }
-#carousel{
+
+#carousel {
     height: 100%;
 
+}
+
+.tablestyle {
+    border-radius: 25px;
+    border-style: outset;
+    width: 100%;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#errormessage {
+    color: darkred;
+}
+
+#banner {
+    float: right;
+    width: 74%;
+    height: 180px;
+    background-color: blue;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#errortextbox {
+    float: right;
 
 }
-.tablestyle{
-	border-radius: 25px;
-	border-style: outset;
-	width: 100%;
-	font-family: 'Oxygen', sans-serif;
+
+.errormessagelol {
+    color: darkred;
+    font-family: "Times New Roman";
+    font-size: 12pt;
 }
-#errormessage
-{
-	color: darkred;
+
+#login {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
 }
-#banner
-{
-	float: right;
-	width: 74%;
-	height: 180px;
-	background-color: blue;
-	border-radius: 20px;
-}
-#errortextbox
-{
-	float: right;
+
+#login_space {
+    height: 20px;
+    width: 74%;
+    float: right;
 
 }
-.errormessagelol
-{
-color: darkred;
-	font-family: "Times New Roman";
-	font-size: 12pt;
+
+#logoff {
+    margin-left: 15px;
+    float: left;
+    text-align: left;
 }
-#login
-{
-	margin-top: 150px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 320px;
+
+#loginlink {
+    margin: 0px;
+    margin-right: 10px;
+    font-size: 12pt;
+    font-family: "Times New Roman";
+    text-align: right;
 }
-#login_space
-{
-	height:20px;
-	width:74%;
-	float:right;
-	background-color:white;
-	border-radius: 10px;
-}
-#logoff
-{
-	margin-left: 15px;
-	float: left;
-	text-align: left;
-}
-#loginlink
-{
-	margin: 0px;
-	margin-right: 10px;
-	font-size: 12pt;
-	font-family: "Times New Roman";
-	text-align: right;
-}
-#welcomemessage
-{
-	float: right;
-	margin: 0px;
-	font-size: 12pt;
-	font-family: 'Open Sans', sans-serif;
-	text-align: right;
-	margin-right: 10px;
-	margin-bottom: 5px;
+
+#welcomemessage {
+    float: right;
+    margin: 0px;
+    font-size: 12pt;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
 
 }
-#entete
-{
-	
+
+#entete {
+
 }
-#form
-{
+
+#form {
     margin-top: 50px;
     margin-left: 150px;
 }
-#menu
-{
-   border-radius: 20px;
-   margin-top:5px;
-   margin-bottom:15px;
-   height:70px;
-   width:100%;
-   background-color: #9AA7AE;
-}
-#container
-{
-margin:auto;
-width:1024px;
-height:100%;	
-}
 
-#gauche
-{
-    overflow: hidden;
-	border-radius: 20px;
-	background-color: #298cce;
-    height :1000px;
-    width:25%;
-	float:left;
-}
-#droite
-{
+#menu {
     border-radius: 20px;
-	background-color:#c9d4db;
-	height:1000px;
-	width:74%;
-	float:right;
-	
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 70px;
+    width: 100%;
+    background-color: #9AA7AE;
 }
-#pied
-{
-	border-radius: 20px;
-	width:100%;
-	height:190px;
-	background-color: black;
-	margin-top: 15px;
-	
+
+#logopicture {
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 190px;
+    width: 210px;
+    border-radius: 20px;
 }
-.title
-{
-	margin-top: 20px;
-	text-align:center;
-    font-size: 30px;
-	font-family: 'Montserrat', sans-serif;
-	color: white;
+
+#contenu {
+    height: 750px;
+}
+
+#container {
+    border-radius: 20px;
+    margin: auto;
+    width: 1024px;
+    height: 100%;
+    background-color: #aac9ce;
+}
+
+#gauche {
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #298cce;
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+#droite {
+    border-radius: 20px;
+    background-color: #c9d4db;
+    height: 100%;
+    width: 74%;
+    float: right;
 
 }
-.textright
-{
-	color: black;
-	text-align: justify;
-	font-family: 'Oxygen', sans-serif;
-	font-size: 16px;
-	margin-top: 5px;
-	margin-left: 15px;
+
+#pied {
+    border-radius: 20px;
+    width: 100%;
+    height: 190px;
+    background-color: black;
+    margin-top: 15px;
+
+}
+
+.title {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+
+}
+
+.textright {
+    color: black;
+    text-align: justify;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 15px;
     margin-right: 15px;
 }
-.textleft
-{
-	color: white;
-	margin-left: 12px;
-	margin-right: 12px;
-	margin-top:5px;
-	text-align: justify;
-	font-family: 'Oxygen', sans-serif;
-	font-size: 16px;
-}
-#MLGLogo
-{
-	margin-top: 60px;
-	text-align:center;
-}
-#leftsponsorindex
-{
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 25px;
-	
-}
-#right1title
-{
-	font-size: 20px;
-	font-family: 'Montserrat', sans-serif;
-	text-align:center;
-	
-}
-#right1QuotePax
-{
-	font-family: 'Montserrat', sans-serif;
-	padding-bottom: 10px;
-	text-align: center;
-}
-#rigth2title
-{
-	font-family: 'Montserrat', sans-serif;
-	text-align: center;
-}
-#rigth2game1
-{
-	margin-top: 150px;
-	margin-left: 40px;
-	float: left;
-}
-#rigth2game2
-{
-    margin-top: 120px;
-	margin-left: 120px;
 
-}
-#mapEvent
-{
-	margin-left: 17%;
-
-}
-#tableplayer
-{
-	margin-left: auto;
-	margin-right: auto;
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-	font-size: 12pt;
+.linkitem {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    width: 25%;
+    float: left;
+    text-align: center;
 }
 
-.linkitem
-{
-	font-family: 'Open Sans', sans-serif;
-	font-size:16pt;
-	padding-top:20px;
-	padding-bottom:21px;
-	width:25%;
-	float:left;
-	text-align:center;
-}
-.quotejohn
-{
-    font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
-    margin-top: 15px;
-    margin-left: 11.5%;
-}
-.quotesnoop
-{
-    font-family: 'Oxygen', sans-serif;
-    font-size: 16px;
-    margin-top: 17px;
-    margin-left: 11%;
-}
-#footertitle
-{
+#footertitle {
     padding-top: 10px;
     margin-bottom: 10px;
-	text-align: center;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
 }
-#intellogo
-{
+
+#intellogo {
     margin-left: 50px;
     float: left;
 }
-#corsairlogo
-{
+
+#corsairlogo {
     float: left;
     margin-left: 120px;
 }
-#msilogo
-{
+
+#msilogo {
     float: left;
     margin-top: 20px;
     margin-left: 45px;
 }
-#johnwick
-{
-	margin-right: 15px;
-    margin-left: 15px;
-    float: left;
-}
-#snoop
-{
-    margin-right: 12pt;
-    margin-left: 10px;
-    float: left;
-}
-#blackdesert
-{
-	margin-left: auto;
-	margin-right: auto;
 
-}
-.clear
-{
-	clear:both;
+.clear {
+    clear: both;
 }
