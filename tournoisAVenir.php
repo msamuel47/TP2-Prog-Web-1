@@ -4,20 +4,18 @@
 include  "entete.php";
 include  "pieddepage.php";
 include  "afficherTournois.php";
+include "htmlhead";
+MakeHTMLHead();
 ?>
-<head>
-	<meta charset="UTF-8">
-	<title>Événement à venir</title>
-	<link rel="stylesheet" href="CSS/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-</head>
-<body>
+
+<body onload="pictureCarousel()">
 	<div id="container">
         <?php
         ShowHeader();
         ?>
 		<div id="contenu">
 			<div id="gauche" style="height: 720px;">
+                <img id="carousel" src="img/image1.jpg" style="width: 100%">
 			</div>
 			<div id="droite" style="height: 100%;">
                 <?php

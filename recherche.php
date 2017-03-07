@@ -3,14 +3,11 @@
 <?php
 include  "entete.php";
 include  "pieddepage.php";
+include "htmlhead";
+MakeHTMLHead();
 ?>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Rechercher</title>
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-</head>
+
 
 <body>
 	<div id="container">
@@ -21,11 +18,7 @@ include  "pieddepage.php";
 			
 
 			<div id="gauche">
-			   <script>
-					var i=0;
-					setInterval(change_pic(i),2000);
-			   </script>
-			   <img id="defile" src="img/image1.jpg" width="100%" >
+                <img id="carousel" src="img/image1.jpg" style="width: 100%">
 			</div>
 			<div id="droite">
 				<form action="traitementRecherche.php" method="post">

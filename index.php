@@ -3,16 +3,11 @@
 <?php
 include  "entete.php";
 include  "pieddepage.php";
+include "htmlhead";
+MakeHTMLHead();
 ?>
 
-<head>
-	<meta charset="UTF-8">
-	<title>MLG tournament</title>
-	<link rel="stylesheet" href="CSS/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="js/banniere.js"></script>
-</head>
+
 <body onload="setInterval(pictureCarousel(),1000)">
 	<div id="container">
 	

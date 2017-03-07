@@ -3,15 +3,10 @@
 <?php
 include  "entete.php";
 include  "pieddepage.php";
+include  "htmlhead";
+MakeHTMLHead();
 ?>
-<head>
-	<meta charset="UTF-8">
-	<title>Enregistrer</title>
-	<link rel="stylesheet" href="CSS/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-    <link rel="javascript" type="text/javascript" href="js/banniere.js">
-</head>
+
 <body>
 	<div id="container">
         <?php
@@ -21,7 +16,7 @@ include  "pieddepage.php";
 		
 		
 			<div id="gauche" style="height: 450px ; background-color: #ff5b5a">
-
+                <img id="carousel" src="img/image1.jpg" style="width: 100%">
 			</div>
 			<div id="droite" style="height: 450px">
 				<p class="title" style="color: black;">Enregistrer un tournoi</p>
