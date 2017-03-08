@@ -1,7 +1,7 @@
 <?php
 
 echo $_POST["nom"];
-$resulatRecherche = [];
+
 session_start();
 if(is_file("tournois.txt"))
 {
@@ -25,10 +25,14 @@ if(is_file("tournois.txt"))
 		}
 	}
 	$_SESSION['array'] = $tournoiresultat;
-	if(isset($resulatRecherche))
+	if(!empty($tournoiresultat))
 	{
 		header('Location:resulatRecherche.php');
 	}
+	else{
+	    header("Location: recherche.php?notFound=1");
+    }
+
 }
 else
 {
