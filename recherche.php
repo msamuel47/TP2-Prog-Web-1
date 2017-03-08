@@ -20,8 +20,17 @@ MakeHTMLHead();
         <div id="droite">
             <form action="traitementRecherche.php" method="post">
                 <table>
-
-                    nom du tournoi :<input type="text" name="nom"/>
+                    <td>
+                        <label>Nom du tournoi :</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nom"/>
+                    </td>
+                    <?php
+                    if (isset($_GET['errorEmpty'])) {
+                        echo '<p class="errormessagelol">Veuillez remplir le champ S.V.P</p>';
+                    }
+                    ?>
                 </table>
                 <button type="submit" value="submit">submit</button>
             </form>
