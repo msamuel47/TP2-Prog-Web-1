@@ -21,7 +21,7 @@ MakeHTMLHead();
 					var i=0;
 					setInterval(change_pic(i),2000);
 			   </script>
-			   <img id="defile" src="img/image1.jpg" width="100%" >
+                <img id="carousel" src="img/image1.jpg">
 			</div>
 			<div id="droite">
 				<?php
