@@ -9,6 +9,7 @@
 
 </head>
 <body>
+<p class="title">Admin connect v2.4</p>
 <div id="login">
     <form id="login" action="validerUtilisateur.php" method="post">
         <table>

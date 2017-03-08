@@ -26,7 +26,7 @@ function ShowHeader()
 		</div>
 		<div id="menu">
 			<div class="linkitem"><a href="index.php">Accueil</a></div>
-			<div class="linkitem"><a href="tournoisAVenir.php">Tournois à venir</a></div>
+			<div class="linkitem"><a href="tournoisAVenir.php">Tournois</a></div>
 			<div class="linkitem"><a href="recherche.php">Rechercher</a></div>';
     if (isset($_SESSION['user'])) {
         echo '<div class="linkitem" ><a href = "enregistrer.php" > Enregistrer un tournoi </a ></div >';

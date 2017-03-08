@@ -14,7 +14,7 @@ if(!empty($_POST['nom'])) {
         $c = 0;
         for ($i = 0; $i < count($tournoisAVerifier); $i++) {
 
-            if ($tournoisAVerifier[$i][0] == $_POST['nom']) {
+            if (trim($tournoisAVerifier[$i][0]) == $_POST['nom']) {
                 $tournoiresultat[$c] = $tournoisAVerifier[$i];
 
                 $c++;
@@ -30,7 +30,7 @@ if(!empty($_POST['nom'])) {
     }
     else
     {
-
+         header('Location : recherche.php?fileError=1');
     }
 }
 else{

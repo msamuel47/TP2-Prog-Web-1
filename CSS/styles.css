@@ -5,10 +5,10 @@
     background-color: #c3ceb9;
     border-radius: 20px;
 }
-#bannerImage{
+
+#bannerImage {
     border-radius: 20px;
 }
-
 
 .tableTournament {
 
@@ -146,6 +146,11 @@
     width: 74%;
     float: right;
 
+}
+
+#researchForm {
+    margin-top: 100px;
+    margin-left: 200px;
 }
 
 #pied {
