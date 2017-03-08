@@ -3,16 +3,12 @@
 <?php
 include  "entete.php";
 include  "pieddepage.php";
+include  "htmlhead.php";
+MakeHTMLHead();
+
 ?>
 
-<head>
-	<meta charset="UTF-8">
-	<title>MLG tournament</title>
-	<link rel="stylesheet" href="CSS/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-</head>
-<body>
+<body onload="pictureCarousel()">
 <div id="container">
 		<?php
 		ShowHeader();
