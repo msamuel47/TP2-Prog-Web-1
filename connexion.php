@@ -16,32 +16,39 @@
                 <td><label>Nom d'utilisateur :</label></td>
                 <td><input type="text" name="username"/></td>
                 <?php
-
+                if (isset($_GET['error'])) {
+                    if ($_GET['error'] == 4) {
+        echo'<td><p class="errormessagelol">Nom d\'utilisateur non existant</p></td>';
+                    }
+                }
                 ?>
             </tr>
             <tr>
                 <td><label>Mot de passe :</label></td>
-                <td> <input type="password" name="mdp" /></td>
+                <td><input type="password" name="mdp"/></td>
+                <?php
+                if (isset($_GET['error'])){
+                    if ($_GET['error'] == 3){
+                        echo'<td><p class="errormessagelol">Mot de passe invalide</p></td>';
+                    }
+                }
+                ?>
             </tr>
         </table>
-        <input type="submit"  value="connexion"/>
+        <input type="submit" value="connexion"/>
 
     </form>
     <?php
 
-    if (isset($_GET['error']))
-    {
+    if (isset($_GET['error'])) {
 
-        if($_GET['error'] == 0)
-        {
+        if ($_GET['error'] == 0) {
             echo '<p class="errormessagelol">Votre nom d\'utilisateur est manquant</p>';
         }
-        if($_GET['error'] == 1)
-        {
+        if ($_GET['error'] == 1) {
             echo '<p class="errormessagelol">Votre mot de passe est manquant</p>';
         }
-        if($_GET['error'] == 2)
-        {
+        if ($_GET['error'] == 2) {
             echo '<p class="errormessagelol">Votre nom d\'utilisateur est manquant</p></br>
 <p class="errormessagelol">Votre mot de passe est manquant</p>';
         }

@@ -7,6 +7,7 @@ function MakeHTMLHead(){
 	<link rel="stylesheet" href="CSS/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon.ico">
     <script src="js/banniere.js"></script>
 </head>';
 }
