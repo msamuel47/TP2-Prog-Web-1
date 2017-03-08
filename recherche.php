@@ -34,6 +34,7 @@ include  "pieddepage.php";
 					nom du tournoi        :<input type="text" name="nom"/>
 					</table>
 					<button type="submit" value="submit">submit</button>
+					
 				</form>
 			</div>
 		   
