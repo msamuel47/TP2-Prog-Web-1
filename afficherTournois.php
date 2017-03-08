@@ -62,6 +62,7 @@ function GetOrganisedTournament($upperOrLower)
             }
             echo '</table></div>';
         }
+
         //Afficher les tournois à venir
         if ($upperOrLower == 1) {
             $tournoisAVenir = TrierTableau($tournoisATrier, 1, 1, Time());
