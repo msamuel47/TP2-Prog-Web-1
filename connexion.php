@@ -18,6 +18,10 @@
                 <td><input type="text" name="username"/></td>
                 <?php
                 if (isset($_GET['error'])) {
+                    if($_GET['error'] == 0){
+                        echo'<td><p class="errormessagelol">Veuillez entrer un nom d\'utilisateur</p></td>';
+                    }
+
                     if ($_GET['error'] == 4) {
         echo'<td><p class="errormessagelol">Nom d\'utilisateur non existant</p></td>';
                     }
@@ -29,8 +33,8 @@
                 <td><input type="password" name="mdp"/></td>
                 <?php
                 if (isset($_GET['error'])){
-                    if ($_GET['error'] == 3){
-                        echo'<td><p class="errormessagelol">Mot de passe invalide</p></td>';
+                    if($_GET['error'] == 1){
+                        echo'<td><p class="errormessagelol">Veuillez entrer un mot de passe</p></td>';
                     }
                 }
                 ?>
@@ -39,23 +43,6 @@
         <input type="submit" value="connexion"/>
 
     </form>
-    <?php
 
-    if (isset($_GET['error'])) {
-
-        if ($_GET['error'] == 0) {
-            echo '<p class="errormessagelol">Votre nom d\'utilisateur est manquant</p>';
-        }
-        if ($_GET['error'] == 1) {
-            echo '<p class="errormessagelol">Votre mot de passe est manquant</p>';
-        }
-        if ($_GET['error'] == 2) {
-            echo '<p class="errormessagelol">Votre nom d\'utilisateur est manquant</p></br>
-<p class="errormessagelol">Votre mot de passe est manquant</p>';
-        }
-
-
-    }
-    ?>
 </div>
 </body>

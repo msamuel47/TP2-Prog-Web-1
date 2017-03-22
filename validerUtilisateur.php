@@ -29,7 +29,8 @@ if (!empty($_POST['username']) && !empty($_POST['mdp'])) {
                 if (isset($_SESSION['user'])) {
                     header('Location: index.php');
                 } else {
-                    header("Location: connexion.php");
+
+                    header("Location: connexion.php?errorInvalid=1");
                 }
             }
         }
